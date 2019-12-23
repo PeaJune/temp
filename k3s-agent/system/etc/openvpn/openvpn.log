@@ -1,0 +1,292 @@
+Wed Sep  4 14:51:50 2019 WARNING: file 'user' is group or others accessible
+Wed Sep  4 14:51:50 2019 OpenVPN 2.4.7 aarch64-himix100-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [MH/PKTINFO] [AEAD] built on Aug 16 2019
+Wed Sep  4 14:51:50 2019 library versions: OpenSSL 1.0.2q  20 Nov 2018, LZO 2.10
+Wed Sep  4 14:51:50 2019 WARNING: No server certificate verification method has been enabled.  See http://openvpn.net/howto.html#mitm for more info.
+Wed Sep  4 14:52:30 2019 RESOLVE: Cannot resolve host address: son.aibee.cn:21194 (Name or service not known)
+Wed Sep  4 14:53:10 2019 RESOLVE: Cannot resolve host address: son.aibee.cn:21194 (Name or service not known)
+Wed Sep  4 14:53:10 2019 Could not determine IPv4/IPv6 protocol
+Wed Sep  4 14:53:10 2019 SIGUSR1[soft,init_instance] received, process restarting
+Wed Sep  4 14:53:10 2019 Restart pause, 5 second(s)
+Wed Sep  4 14:53:15 2019 WARNING: No server certificate verification method has been enabled.  See http://openvpn.net/howto.html#mitm for more info.
+Wed Sep  4 14:54:04 2019 WARNING: file 'user' is group or others accessible
+Wed Sep  4 14:54:04 2019 OpenVPN 2.4.7 aarch64-himix100-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [MH/PKTINFO] [AEAD] built on Aug 16 2019
+Wed Sep  4 14:54:04 2019 library versions: OpenSSL 1.0.2q  20 Nov 2018, LZO 2.10
+Wed Sep  4 14:54:04 2019 WARNING: No server certificate verification method has been enabled.  See http://openvpn.net/howto.html#mitm for more info.
+Wed Sep  4 14:58:51 2019 WARNING: file 'user' is group or others accessible
+Wed Sep  4 14:58:51 2019 OpenVPN 2.4.7 aarch64-himix100-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [MH/PKTINFO] [AEAD] built on Aug 16 2019
+Wed Sep  4 14:58:51 2019 library versions: OpenSSL 1.0.2q  20 Nov 2018, LZO 2.10
+Wed Sep  4 14:58:51 2019 WARNING: No server certificate verification method has been enabled.  See http://openvpn.net/howto.html#mitm for more info.
+Wed Sep  4 14:58:56 2019 TCP/UDP: Preserving recently used remote address: [AF_INET]106.12.80.151:21194
+Wed Sep  4 14:58:56 2019 Socket Buffers: R=[87380->87380] S=[16384->16384]
+Wed Sep  4 14:58:56 2019 Attempting to establish TCP connection with [AF_INET]106.12.80.151:21194 [nonblock]
+Wed Sep  4 14:58:57 2019 TCP connection established with [AF_INET]106.12.80.151:21194
+Wed Sep  4 14:58:57 2019 TCP_CLIENT link local: (not bound)
+Wed Sep  4 14:58:57 2019 TCP_CLIENT link remote: [AF_INET]106.12.80.151:21194
+Wed Sep  4 14:58:57 2019 TLS: Initial packet from [AF_INET]106.12.80.151:21194, sid=3747f832 bc9b4dff
+Wed Sep  4 14:58:57 2019 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+Wed Sep  4 14:58:57 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 14:58:57 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 14:58:57 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Wed Sep  4 14:58:57 2019 [server] Peer Connection Initiated with [AF_INET]106.12.80.151:21194
+Wed Sep  4 14:58:59 2019 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Wed Sep  4 14:58:59 2019 PUSH: Received control message: 'PUSH_REPLY,route-gateway 10.255.0.1,topology subnet,ping 5,ping-restart 30,ifconfig 10.255.4.9 255.255.0.0,peer-id 0,cipher AES-256-GCM'
+Wed Sep  4 14:58:59 2019 OPTIONS IMPORT: timers and/or timeouts modified
+Wed Sep  4 14:58:59 2019 OPTIONS IMPORT: --ifconfig/up options modified
+Wed Sep  4 14:58:59 2019 OPTIONS IMPORT: route-related options modified
+Wed Sep  4 14:58:59 2019 OPTIONS IMPORT: peer-id set
+Wed Sep  4 14:58:59 2019 OPTIONS IMPORT: adjusting link_mtu to 1627
+Wed Sep  4 14:58:59 2019 OPTIONS IMPORT: data channel crypto options modified
+Wed Sep  4 14:58:59 2019 Data Channel: using negotiated cipher 'AES-256-GCM'
+Wed Sep  4 14:58:59 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 14:58:59 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 14:58:59 2019 TUN/TAP device tun0 opened
+Wed Sep  4 14:58:59 2019 TUN/TAP TX queue length set to 100
+Wed Sep  4 14:58:59 2019 /sbin/ifconfig tun0 10.255.4.9 netmask 255.255.0.0 mtu 1500 broadcast 10.255.255.255
+Wed Sep  4 14:59:01 2019 Initialization Sequence Completed
+Wed Sep  4 14:59:15 2019 event_wait : Interrupted system call (code=4)
+Wed Sep  4 14:59:15 2019 Closing TUN/TAP interface
+Wed Sep  4 14:59:15 2019 /sbin/ifconfig tun0 0.0.0.0
+Wed Sep  4 14:59:15 2019 SIGTERM[hard,] received, process exiting
+Wed Sep  4 14:59:30 2019 WARNING: file 'user' is group or others accessible
+Wed Sep  4 14:59:30 2019 OpenVPN 2.4.7 aarch64-himix100-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [MH/PKTINFO] [AEAD] built on Aug 16 2019
+Wed Sep  4 14:59:30 2019 library versions: OpenSSL 1.0.2q  20 Nov 2018, LZO 2.10
+Wed Sep  4 14:59:30 2019 WARNING: No server certificate verification method has been enabled.  See http://openvpn.net/howto.html#mitm for more info.
+Wed Sep  4 14:59:35 2019 TCP/UDP: Preserving recently used remote address: [AF_INET]106.12.80.151:21194
+Wed Sep  4 14:59:35 2019 Socket Buffers: R=[87380->87380] S=[16384->16384]
+Wed Sep  4 14:59:35 2019 Attempting to establish TCP connection with [AF_INET]106.12.80.151:21194 [nonblock]
+Wed Sep  4 14:59:36 2019 TCP connection established with [AF_INET]106.12.80.151:21194
+Wed Sep  4 14:59:36 2019 TCP_CLIENT link local: (not bound)
+Wed Sep  4 14:59:36 2019 TCP_CLIENT link remote: [AF_INET]106.12.80.151:21194
+Wed Sep  4 14:59:36 2019 TLS: Initial packet from [AF_INET]106.12.80.151:21194, sid=925ec23e c8da2a3e
+Wed Sep  4 14:59:36 2019 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+Wed Sep  4 14:59:36 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 14:59:36 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 14:59:36 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Wed Sep  4 14:59:36 2019 [server] Peer Connection Initiated with [AF_INET]106.12.80.151:21194
+Wed Sep  4 14:59:37 2019 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Wed Sep  4 14:59:37 2019 PUSH: Received control message: 'PUSH_REPLY,route-gateway 10.255.0.1,topology subnet,ping 5,ping-restart 30,ifconfig 10.255.4.9 255.255.0.0,peer-id 0,cipher AES-256-GCM'
+Wed Sep  4 14:59:37 2019 OPTIONS IMPORT: timers and/or timeouts modified
+Wed Sep  4 14:59:37 2019 OPTIONS IMPORT: --ifconfig/up options modified
+Wed Sep  4 14:59:37 2019 OPTIONS IMPORT: route-related options modified
+Wed Sep  4 14:59:37 2019 OPTIONS IMPORT: peer-id set
+Wed Sep  4 14:59:37 2019 OPTIONS IMPORT: adjusting link_mtu to 1627
+Wed Sep  4 14:59:37 2019 OPTIONS IMPORT: data channel crypto options modified
+Wed Sep  4 14:59:37 2019 Data Channel: using negotiated cipher 'AES-256-GCM'
+Wed Sep  4 14:59:37 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 14:59:37 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 14:59:37 2019 TUN/TAP device tun0 opened
+Wed Sep  4 14:59:37 2019 TUN/TAP TX queue length set to 100
+Wed Sep  4 14:59:37 2019 /sbin/ifconfig tun0 10.255.4.9 netmask 255.255.0.0 mtu 1500 broadcast 10.255.255.255
+Wed Sep  4 14:59:39 2019 Initialization Sequence Completed
+Wed Sep  4 15:59:35 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 15:59:35 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 15:59:35 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 15:59:35 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 15:59:35 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Wed Sep  4 16:59:35 2019 TLS: soft reset sec=0 bytes=79145/-1 pkts=1469/0
+Wed Sep  4 16:59:35 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 16:59:35 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 16:59:36 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 16:59:36 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 16:59:36 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Wed Sep  4 17:59:35 2019 TLS: tls_process: killed expiring key
+Wed Sep  4 17:59:35 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 17:59:35 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 17:59:35 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 17:59:35 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 17:59:35 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Wed Sep  4 18:05:00 2019 event_wait : Interrupted system call (code=4)
+Wed Sep  4 18:05:00 2019 Closing TUN/TAP interface
+Wed Sep  4 18:05:00 2019 /sbin/ifconfig tun0 0.0.0.0
+Wed Sep  4 18:05:00 2019 SIGTERM[hard,] received, process exiting
+Wed Sep  4 18:10:04 2019 WARNING: file 'user' is group or others accessible
+Wed Sep  4 18:10:04 2019 OpenVPN 2.4.7 aarch64-himix100-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [MH/PKTINFO] [AEAD] built on Aug 16 2019
+Wed Sep  4 18:10:04 2019 library versions: OpenSSL 1.0.2q  20 Nov 2018, LZO 2.10
+Wed Sep  4 18:10:04 2019 WARNING: No server certificate verification method has been enabled.  See http://openvpn.net/howto.html#mitm for more info.
+Wed Sep  4 18:10:09 2019 TCP/UDP: Preserving recently used remote address: [AF_INET]106.12.80.151:21194
+Wed Sep  4 18:10:09 2019 Socket Buffers: R=[87380->87380] S=[16384->16384]
+Wed Sep  4 18:10:09 2019 Attempting to establish TCP connection with [AF_INET]106.12.80.151:21194 [nonblock]
+Wed Sep  4 18:10:10 2019 TCP connection established with [AF_INET]106.12.80.151:21194
+Wed Sep  4 18:10:10 2019 TCP_CLIENT link local: (not bound)
+Wed Sep  4 18:10:10 2019 TCP_CLIENT link remote: [AF_INET]106.12.80.151:21194
+Wed Sep  4 18:10:10 2019 TLS: Initial packet from [AF_INET]106.12.80.151:21194, sid=821104d7 1e4f70e7
+Wed Sep  4 18:10:10 2019 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+Wed Sep  4 18:10:10 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 18:10:10 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 18:10:10 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Wed Sep  4 18:10:10 2019 [server] Peer Connection Initiated with [AF_INET]106.12.80.151:21194
+Wed Sep  4 18:10:11 2019 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Wed Sep  4 18:10:11 2019 PUSH: Received control message: 'PUSH_REPLY,route-gateway 10.255.0.1,topology subnet,ping 5,ping-restart 30,ifconfig 10.255.4.9 255.255.0.0,peer-id 0,cipher AES-256-GCM'
+Wed Sep  4 18:10:11 2019 OPTIONS IMPORT: timers and/or timeouts modified
+Wed Sep  4 18:10:11 2019 OPTIONS IMPORT: --ifconfig/up options modified
+Wed Sep  4 18:10:11 2019 OPTIONS IMPORT: route-related options modified
+Wed Sep  4 18:10:11 2019 OPTIONS IMPORT: peer-id set
+Wed Sep  4 18:10:11 2019 OPTIONS IMPORT: adjusting link_mtu to 1627
+Wed Sep  4 18:10:11 2019 OPTIONS IMPORT: data channel crypto options modified
+Wed Sep  4 18:10:11 2019 Data Channel: using negotiated cipher 'AES-256-GCM'
+Wed Sep  4 18:10:11 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 18:10:11 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 18:10:11 2019 TUN/TAP device tun0 opened
+Wed Sep  4 18:10:11 2019 TUN/TAP TX queue length set to 100
+Wed Sep  4 18:10:11 2019 /sbin/ifconfig tun0 10.255.4.9 netmask 255.255.0.0 mtu 1500 broadcast 10.255.255.255
+Wed Sep  4 18:10:13 2019 Initialization Sequence Completed
+Wed Sep  4 19:10:10 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 19:10:10 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 19:10:10 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 19:10:10 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 19:10:10 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Wed Sep  4 20:10:10 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 20:10:10 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 20:10:10 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 20:10:10 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 20:10:10 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Wed Sep  4 21:10:10 2019 TLS: soft reset sec=0 bytes=78936/-1 pkts=1469/0
+Wed Sep  4 21:10:11 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 21:10:11 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 21:10:11 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 21:10:11 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 21:10:11 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Wed Sep  4 22:10:10 2019 TLS: tls_process: killed expiring key
+Wed Sep  4 22:10:11 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 22:10:11 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 22:10:11 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 22:10:11 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 22:10:11 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Wed Sep  4 23:10:11 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 23:10:11 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Wed Sep  4 23:10:11 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 23:10:11 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Wed Sep  4 23:10:11 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Thu Sep  5 00:10:12 2019 TLS: soft reset sec=-1 bytes=78096/-1 pkts=1460/0
+Thu Sep  5 00:10:12 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 00:10:12 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 00:10:12 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 00:10:12 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 00:10:12 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Thu Sep  5 01:10:11 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 01:10:11 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 01:10:11 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 01:10:11 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 01:10:11 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Thu Sep  5 02:10:11 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 02:10:11 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 02:10:12 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 02:10:12 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 02:10:12 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Thu Sep  5 03:10:11 2019 TLS: tls_process: killed expiring key
+Thu Sep  5 03:10:11 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 03:10:11 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 03:10:11 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 03:10:11 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 03:10:11 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Thu Sep  5 04:10:11 2019 TLS: soft reset sec=0 bytes=78392/-1 pkts=1468/0
+Thu Sep  5 04:10:11 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 04:10:11 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 04:10:12 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 04:10:12 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 04:10:12 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Thu Sep  5 05:10:11 2019 TLS: tls_process: killed expiring key
+Thu Sep  5 05:10:12 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 05:10:12 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 05:10:12 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 05:10:12 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 05:10:12 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Thu Sep  5 06:10:12 2019 TLS: soft reset sec=0 bytes=78051/-1 pkts=1459/0
+Thu Sep  5 06:10:12 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 06:10:12 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 06:10:12 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 06:10:12 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 06:10:12 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Thu Sep  5 07:10:12 2019 TLS: soft reset sec=0 bytes=78121/-1 pkts=1461/0
+Thu Sep  5 07:10:12 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 07:10:12 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 07:10:12 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 07:10:12 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 07:10:12 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Thu Sep  5 08:10:12 2019 TLS: soft reset sec=0 bytes=77969/-1 pkts=1457/0
+Thu Sep  5 08:10:12 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 08:10:12 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 08:10:12 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 08:10:12 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 08:10:12 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Thu Sep  5 09:10:12 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 09:10:12 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 09:10:12 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 09:10:12 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 09:10:12 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Thu Sep  5 10:10:12 2019 TLS: soft reset sec=0 bytes=78619/-1 pkts=1459/0
+Thu Sep  5 10:10:12 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 10:10:12 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 10:10:13 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 10:10:13 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 10:10:13 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Thu Sep  5 10:40:00 2019 event_wait : Interrupted system call (code=4)
+Thu Sep  5 10:40:00 2019 Closing TUN/TAP interface
+Thu Sep  5 10:40:00 2019 /sbin/ifconfig tun0 0.0.0.0
+Thu Sep  5 10:40:00 2019 SIGTERM[hard,] received, process exiting
+Thu Sep  5 10:48:21 2019 WARNING: file 'user' is group or others accessible
+Thu Sep  5 10:48:21 2019 OpenVPN 2.4.7 aarch64-himix100-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [MH/PKTINFO] [AEAD] built on Aug 16 2019
+Thu Sep  5 10:48:21 2019 library versions: OpenSSL 1.0.2q  20 Nov 2018, LZO 2.10
+Thu Sep  5 10:48:21 2019 WARNING: No server certificate verification method has been enabled.  See http://openvpn.net/howto.html#mitm for more info.
+Thu Sep  5 10:48:26 2019 TCP/UDP: Preserving recently used remote address: [AF_INET]106.12.80.151:21194
+Thu Sep  5 10:48:26 2019 Socket Buffers: R=[87380->87380] S=[16384->16384]
+Thu Sep  5 10:48:26 2019 Attempting to establish TCP connection with [AF_INET]106.12.80.151:21194 [nonblock]
+Thu Sep  5 10:48:27 2019 TCP connection established with [AF_INET]106.12.80.151:21194
+Thu Sep  5 10:48:27 2019 TCP_CLIENT link local: (not bound)
+Thu Sep  5 10:48:27 2019 TCP_CLIENT link remote: [AF_INET]106.12.80.151:21194
+Thu Sep  5 10:48:27 2019 TLS: Initial packet from [AF_INET]106.12.80.151:21194, sid=cc4f979d 0eb62429
+Thu Sep  5 10:48:27 2019 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+Thu Sep  5 10:48:27 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 10:48:27 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 10:48:28 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Thu Sep  5 10:48:28 2019 [server] Peer Connection Initiated with [AF_INET]106.12.80.151:21194
+Thu Sep  5 10:48:29 2019 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Thu Sep  5 10:48:29 2019 PUSH: Received control message: 'PUSH_REPLY,route-gateway 10.255.0.1,topology subnet,ping 5,ping-restart 30,ifconfig 10.255.4.9 255.255.0.0,peer-id 0,cipher AES-256-GCM'
+Thu Sep  5 10:48:29 2019 OPTIONS IMPORT: timers and/or timeouts modified
+Thu Sep  5 10:48:29 2019 OPTIONS IMPORT: --ifconfig/up options modified
+Thu Sep  5 10:48:29 2019 OPTIONS IMPORT: route-related options modified
+Thu Sep  5 10:48:29 2019 OPTIONS IMPORT: peer-id set
+Thu Sep  5 10:48:29 2019 OPTIONS IMPORT: adjusting link_mtu to 1627
+Thu Sep  5 10:48:29 2019 OPTIONS IMPORT: data channel crypto options modified
+Thu Sep  5 10:48:29 2019 Data Channel: using negotiated cipher 'AES-256-GCM'
+Thu Sep  5 10:48:29 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 10:48:29 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 10:48:29 2019 TUN/TAP device tun0 opened
+Thu Sep  5 10:48:29 2019 TUN/TAP TX queue length set to 100
+Thu Sep  5 10:48:29 2019 /sbin/ifconfig tun0 10.255.4.9 netmask 255.255.0.0 mtu 1500 broadcast 10.255.255.255
+Thu Sep  5 10:48:31 2019 Initialization Sequence Completed
+Thu Sep  5 10:50:41 2019 event_wait : Interrupted system call (code=4)
+Thu Sep  5 10:50:41 2019 Closing TUN/TAP interface
+Thu Sep  5 10:50:41 2019 /sbin/ifconfig tun0 0.0.0.0
+Thu Sep  5 10:50:41 2019 SIGTERM[hard,] received, process exiting
+Thu Sep  5 10:54:52 2019 WARNING: file 'user' is group or others accessible
+Thu Sep  5 10:54:52 2019 OpenVPN 2.4.7 aarch64-himix100-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [MH/PKTINFO] [AEAD] built on Aug 16 2019
+Thu Sep  5 10:54:52 2019 library versions: OpenSSL 1.0.2q  20 Nov 2018, LZO 2.10
+Thu Sep  5 10:54:52 2019 WARNING: No server certificate verification method has been enabled.  See http://openvpn.net/howto.html#mitm for more info.
+Thu Sep  5 10:54:57 2019 TCP/UDP: Preserving recently used remote address: [AF_INET]106.12.80.151:21194
+Thu Sep  5 10:54:57 2019 Socket Buffers: R=[87380->87380] S=[16384->16384]
+Thu Sep  5 10:54:57 2019 Attempting to establish TCP connection with [AF_INET]106.12.80.151:21194 [nonblock]
+Thu Sep  5 10:54:58 2019 TCP connection established with [AF_INET]106.12.80.151:21194
+Thu Sep  5 10:54:58 2019 TCP_CLIENT link local: (not bound)
+Thu Sep  5 10:54:58 2019 TCP_CLIENT link remote: [AF_INET]106.12.80.151:21194
+Thu Sep  5 10:54:58 2019 TLS: Initial packet from [AF_INET]106.12.80.151:21194, sid=1f8a93af 6166b6f3
+Thu Sep  5 10:54:58 2019 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+Thu Sep  5 10:54:58 2019 VERIFY OK: depth=1, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 10:54:58 2019 VERIFY OK: depth=0, C=CN, ST=BJ, L=BEIJING, O=AI ORG, OU=AI, CN=server, name=EasyRSA, emailAddress=it@aibee.cn
+Thu Sep  5 10:54:58 2019 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Thu Sep  5 10:54:58 2019 [server] Peer Connection Initiated with [AF_INET]106.12.80.151:21194
+Thu Sep  5 10:54:59 2019 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Thu Sep  5 10:54:59 2019 PUSH: Received control message: 'PUSH_REPLY,route-gateway 10.255.0.1,topology subnet,ping 5,ping-restart 30,ifconfig 10.255.4.9 255.255.0.0,peer-id 0,cipher AES-256-GCM'
+Thu Sep  5 10:54:59 2019 OPTIONS IMPORT: timers and/or timeouts modified
+Thu Sep  5 10:54:59 2019 OPTIONS IMPORT: --ifconfig/up options modified
+Thu Sep  5 10:54:59 2019 OPTIONS IMPORT: route-related options modified
+Thu Sep  5 10:54:59 2019 OPTIONS IMPORT: peer-id set
+Thu Sep  5 10:54:59 2019 OPTIONS IMPORT: adjusting link_mtu to 1627
+Thu Sep  5 10:54:59 2019 OPTIONS IMPORT: data channel crypto options modified
+Thu Sep  5 10:54:59 2019 Data Channel: using negotiated cipher 'AES-256-GCM'
+Thu Sep  5 10:54:59 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 10:54:59 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Thu Sep  5 10:54:59 2019 TUN/TAP device tun0 opened
+Thu Sep  5 10:54:59 2019 TUN/TAP TX queue length set to 100
+Thu Sep  5 10:54:59 2019 /sbin/ifconfig tun0 10.255.4.9 netmask 255.255.0.0 mtu 1500 broadcast 10.255.255.255
+Thu Sep  5 10:55:01 2019 Initialization Sequence Completed

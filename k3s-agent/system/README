@@ -1,0 +1,6 @@
+openvpn version: release 2.4
+
+step1:
+export LD_LIBRARY_PATH=`pwd`/usr/lib:$LD_LIBRARY_PATH
+step2:
+./usr/sbin/openvpn --daemon --cd `pwd`/etc/openvpn_cfg --config client.ovpn --log-append `pwd`/etc/openvpn/openvpn.log

@@ -1,0 +1,21 @@
+#初始化执行如下按照并确保服务器可以自动重启openvpn服务
+
+
+##centos
+#yum -y install openvpn
+#tar zxvf openvpn-obj-client.tar.gz
+#mv openvpn/* /etc/openvpn/
+##编辑user文件填写用户密码
+#chmod 755 /etc/openvpn/restart-openvpn.sh
+#/etc/openvpn/restart-openvpn.sh
+#echo "* * * * * /etc/openvpn/restart-openvpn.sh >/dev/null 2>&1" >> /var/spool/cron/root
+
+
+##ubuntu
+#apt -y install openvpn
+#tar zxvf openvpn-obj-client.tar.gz
+#mv openvpn/* /etc/openvpn/
+##编辑user文件填写用户密码
+#chmod 755 /etc/openvpn/restart-openvpn.sh
+#/etc/openvpn/restart-openvpn.sh
+#echo "* * * * * /etc/openvpn/restart-openvpn.sh >/dev/null 2>&1" >> /var/spool/cron/crontabs/root
